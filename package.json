@@ -1,0 +1,19 @@
+{
+  "name": "homeworkmanager",
+  "version": "1.0.0",
+  "description": "A homework manager app to manage projects, tests and homeworks for students made with Firebase ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Karuvathil",
+    "Akshay",
+    "Vijaykumar"
+  ],
+  "author": "Karuvathil Akshay Vijaykumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
