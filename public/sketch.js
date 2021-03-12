@@ -14,9 +14,8 @@ firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
 var database = firebase.database();
-
-
 var userKey;
+var data1;
 
 function signIn() {
   var username = prompt('Username:');
@@ -25,6 +24,7 @@ function signIn() {
   var ref = database.ref('users');
   ref.orderByChild('specialKey').equalTo(combo).once('value', function (snapshot) {
     console.log(snapshot.val());
+    cata1 = snapshot.val();
     userKey = Object.keys(snapshot.val())[0];
   });
   username = '';
